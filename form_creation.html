@@ -3,10 +3,10 @@
 <head>
 <title>Form Creation</title>
 </head>
-<body>
-<h2 align="center">REGISTRATION FORM</h3>
-<form method="post">
-<table align="center">
+<body bgcolor ="#ee82ee">
+<h2 align="center" style = "color:#ff3300">EVENT REGISTRATION FORM</h3>
+<form method="post" >
+<table align="center"  style="border:black;border-width:2px;border-style:outset;" bgcolor="#00FFFF">
 <tr>
 <td>Frist Name</td>
 <td><input type="text" name="name"  pattern="[a-zA-z]{*}" required></td>
@@ -20,10 +20,11 @@
 <td><input type="date" name="name1" required></td>
 </tr>
 <tr>
-<td>Gender</td>
-<td><input type="radio" name="gender1" required>male
-<input type="radio" name="gender2" >female
-<input type="radio" name="gender3" >others</td>
+<td><label for="GENDER" >Gender</label></td>
+<td><input type="radio" id="male" name="gender" >Male
+<input type="radio" id="female" name="gender" >Female
+<input type="radio" id="others" name="gender" >Others
+</td>
 </tr>
 <tr>
 <td>Email</td>
@@ -45,8 +46,18 @@
 <tr>
 <td>Pincode</td>
 <td><input type="text" name="name5"   size=10 required></td>
+<tr>
+<td>Interested Event</td>
+<td><input type="checkbox" name="acc" >Sports<br>
+<input type="checkbox" name="acc" >Singing<br>
+<input type="checkbox" name="acc" >Technology<br>
+<input type="checkbox" name="acc" >Economics<br>
+<input type="checkbox" name="acc" >Commerse<br>
+<input type="checkbox" name="acc" >Science<br>
+<input type="checkbox" name="acc" >Health</td>
 </tr>
-<td><input type="submit" ></td>
+</tr>
+<td align="center"><input type="submit" ></td>
 </tr>
 </table>
 </form>
