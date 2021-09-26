@@ -29,13 +29,27 @@
               </li>
               </ul>
        </nav>
-       <section id="home" >
-        <h1 class="text-center">Keep learning in the moments that matter</h1>
-        <p>Start learning from the world’s best institutions</p>
-        <div class="input-group m-4">
-            <input type="text" class="form-control" placeholder="Search the Courses">
-            <button class="btn signin">Get Started</button>
-        </div>
+       <section id="login" >
+        <form action="action_page.php" method="post">
+          <div class="imgcontainer">
+            <h3>Log In</h3>
+          </div>
+        
+          <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required><br>
+        
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required><br>
+        
+            <button type="submit">Login</button>
+            
+          </div>
+        
+          <div class="container">
+            <span class="psw">Forgot password?</span>
+          </div>
+        </form>
        </section>
     <footer>CopyRights @Online Education 2021</footer>
 </body>
