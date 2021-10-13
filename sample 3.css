@@ -101,21 +101,32 @@ a.active,a.hover{
 #home h1{
     font-size: 40px;
     color:red;
-    letter-spacing:2px;
-    font-family: 'Courier New', Courier, monospace; 
+    letter-spacing:1px;
     align-items: center;
    
+}
+#home h2{
+  font-size: 25px;
+  color:#8E24AA;
+  letter-spacing:1px;
 }
 #home p{
     font-size: 25px;
     color:blue;
+    letter-spacing:1px;
+}
+#home img{
+  height: 300px;
+  width:300px;
 }
 #home .input-group
 {
-    width: 60%;
+    width: 80%;
     height: 80px;
+    padding:30px;
 }
 .signin{
+    font-size: 50px;
     background: green !important;
     color:#fff !important;
     box-shadow: 2px 4px 5px rgba(0,0,0,.3);
@@ -126,24 +137,33 @@ a.active,a.hover{
 #home button{
     font-size: 20px;
 }
-.course{
-    background-size: cover;
-    height:calc(110vh - 80px);
+.container{
+  max-width:1200px;
+  margin: auto;
+  background: #f2f2f2;
+  overflow: auto;
+  height: 750px;
 }
-.course img{
-    height:85%;
-    width: 50%;
+.image{
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 350px;
 }
-.course h2{
-    font-size: 40px;
-    color:#1A237E;
+.image img{
+  width: 100%;
+  height: auto;
 }
-.course h5{
-    font-size: 30px;
-    color:red;
+.desc{
+  padding:10px;
+  text-align:center;
 }
-.course a{
-    font-size: 25px;
+.image h5{
+  font-size: 25px;
+  color: red;
+}
+.image a{
+  font-size: 25px;
 }
 #login{
     background-size: cover;
@@ -194,7 +214,7 @@ a.active,a.hover{
 .wrapper{
     max-width: 500px;
     width: 100%;
-    background: #B2EBF2;
+    background: #90CAF9;
     margin: 20px auto;
     box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
     padding: 30px;
