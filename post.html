@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>
+            EMPLOYEE DETAILS
+        </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<!-- link to Jquery minified-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<!-- link to Bootstrap JS -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<!-- link to fontawesome CSS-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            h1{
+                color: red;
+                text-align: center;
+            }
+            td{
+                color:#000000;
+            }
+            body{
+                background-image: url('b4.jpg');
+                height: 200px ;
+                width:100%;
+                background-repeat: no-repeat;
+                align-content: center;
+            }
+        </style>
+    </head>
+    <body >
+        <div class="container-fluid" >
+        <h1>STUDENT REGISTRATION</h1>
+        <form action="http://localhost:8011" method="POST" class="form-responsive" >
+           <center>
+            <table>
+            <tr>
+            <td>Name</td>
+            <td><input type="text" name="name"  pattern="[a-zA-z]{*}" required></td>
+            </tr>
+            <tr>
+            <td>Roll Number</td>
+            <td><input type="text" name="rno"   size=8></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" value="Male" name="gender"> Male<br>
+                     <input type="radio" value="Female" name="gender">Female<br>
+                     <input type="radio" value="Female" name="gender">  others<br>
+                 </td>
+                </tr>
+                <tr>
+                    <td>Year of Study</td>
+                    <td><input type="text" name="year" required></td>
+                </tr>
+                <tr>
+                    <td>Department</td>
+                    <td><input type="radio" name="dname" value="Civil Engineering" >Civil Engineering<br>
+                    <input type="radio" name="dname" value="Mechanical Engineering" >Mechanical Engineering <br>
+                    <input type="radio" name="dname" value="Computer Science and Engineering" >Computer Science and Engineering<br>
+                    <input type="radio" name="dname" value="Information Technology">Information Technology<br>
+                    <input type="radio" name="dname" value="Electrical and Electronics Engineering">Electrical and Electronics Engineering<br>
+                    <input type="radio" name="dname" value="Electronics and Communication Engineering">Electronics and Communication Engineering<br>
+                    <input type="radio" name="dname" value="Chemical Engineering">Chemical Engineering<br>
+                    <input type="radio" name="dname" value="Automobile Engineering">Automobile Engineering<br>
+                    <input type="radio" name="dname" value="Food Technology">Food Technology <br></td>
+                </tr>
+            <tr>
+            <td>Email</td>
+            <td><input type="email" name="email" placeholder="abc@gmail.com)"required></td>
+            </tr>
+            <tr>
+            <tr>
+            <td>Mobile number</td>
+            <td><input type="text" name="mno"   size=10></td>
+            </tr>
+            <tr>
+            <td align="center"><input type="submit" ></td>
+            </tr>
+           
+            </table>
+        </center>
+        </form>
+            </div>
+        </div>
+            
+        </div>
+    </body>
+</html>
